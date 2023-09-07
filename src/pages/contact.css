@@ -1,0 +1,39 @@
+.contact-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+.contact-container h2 {
+  font-size: 40px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form input {
+  width: 100%;
+  max-width: 400px;
+  height: 30px;
+  background: #fff;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+.form p {
+  margin-bottom: 20px;
+}
