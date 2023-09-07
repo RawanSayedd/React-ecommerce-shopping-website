@@ -13,9 +13,18 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Shop />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route
+              path="http://rawansayedd.github.io/React-ecommerce-shopping-website/"
+              element={<Shop />}
+            />
+            <Route
+              path="http://rawansayedd.github.io/React-ecommerce-shopping-website/contact"
+              element={<Contact />}
+            />
+            <Route
+              path="http://rawansayedd.github.io/React-ecommerce-shopping-website/cart"
+              element={<Cart />}
+            />
           </Routes>
         </Router>
       </ShopContextProvider>

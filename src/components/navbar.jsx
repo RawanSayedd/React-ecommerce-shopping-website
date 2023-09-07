@@ -7,9 +7,13 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="links">
-        <Link to="/"> Shop </Link>
-        <Link to="/contact"> Contact </Link>
-        <Link to="/cart">
+        <Link to="http://rawansayedd.github.io/React-ecommerce-shopping-website/">
+          Shop{" "}
+        </Link>
+        <Link to="http://rawansayedd.github.io/React-ecommerce-shopping-website/contact">
+          Contact{" "}
+        </Link>
+        <Link to="http://rawansayedd.github.io/React-ecommerce-shopping-website/cart">
           <ShoppingCart size={32} />
         </Link>
       </div>
